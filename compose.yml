@@ -5,7 +5,6 @@ services:
    image: chasya07/repo:dbimg
    environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: devopsdb
    ports:
      - "3306:3306"
 
