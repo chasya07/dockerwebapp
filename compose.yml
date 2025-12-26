@@ -3,8 +3,6 @@ version: "3"
 services:
  devopsdb:
    image: chasya07/repo:dbimg
-   environment:
-      MYSQL_ROOT_PASSWORD: root
    ports:
      - "3306:3306"
 
